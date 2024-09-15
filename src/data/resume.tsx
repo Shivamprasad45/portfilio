@@ -189,36 +189,34 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
+      title: "Fack screen generate",
+      href: "https://yt-black.vercel.app/",
       dates: "June 2023 - Present",
       active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
+      description: "this is fun project",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
+
         "TailwindCSS",
-        "Stripe",
+
         "Shadcn UI",
         "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://yt-black.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Shivamprasad45/fackscreenshortgenertor/tree/main",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/Fack.png",
+      video: "",
     },
   ],
 } as const;
